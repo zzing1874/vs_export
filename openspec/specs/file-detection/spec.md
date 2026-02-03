@@ -1,3 +1,8 @@
+## Purpose
+自动检测用户提供的输入文件类型（.sln 或 .vcxproj），并分发到相应的处理流程，确保构建系统能正确解析项目结构。
+
+## Requirements
+
 ### Requirement: 检测输入文件类型
 系统 SHALL 根据输入文件的扩展名自动检测文件类型，支持 .sln 和 .vcxproj 两种格式。
 

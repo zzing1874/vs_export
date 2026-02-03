@@ -1,3 +1,8 @@
+## Purpose
+支持将单个 `.vcxproj` 文件作为输入源，解析其项目配置、展开 MSBuild 变量，并生成与从 `.sln` 文件生成格式一致的 `compile_commands.json`，使用户无需解决方案文件即可导出编译数据库。
+
+## Requirements
+
 ### Requirement: 支持 .vcxproj 文件作为输入
 系统 SHALL 接受 .vcxproj 文件路径作为 `-s` 参数的输入，并生成对应的 compile_commands.json 文件。
 
